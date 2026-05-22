@@ -24,37 +24,6 @@ The website includes dynamic project modals, gameplay video previews, reusable U
 
 Special attention was given to accessibility, responsive behavior, semantic HTML structure and clean code organization.
 
----
-
-# Features
-
-- Responsive modern portfolio design
-- Dynamic navbar and footer components
-- Interactive project modal system
-- Gameplay video preview integration
-- Swiper.js gallery navigation
-- Mobile and tablet optimized layouts
-- EmailJS contact form integration
-- SEO optimized metadata
-- Open Graph and Twitter Card support
-- Semantic HTML structure
-- Accessibility improvements
-- GitHub Pages compatible architecture
-
----
-
-# Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-- Swiper.js
-- AOS Animation Library
-- EmailJS
-
----
-
 # Project Structure
 
 ```text
