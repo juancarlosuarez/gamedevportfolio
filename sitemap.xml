@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+    <url>
+
+        <loc>
+            https://juancarlosuarez.github.io/gamedevportfolio/
+        </loc>
+
+    </url>
+
+    <url>
+
+        <loc>
+            https://juancarlosuarez.github.io/gamedevportfolio/games.html
+        </loc>
+
+    </url>
+
+    <url>
+
+        <loc>
+            https://juancarlosuarez.github.io/gamedevportfolio/about.html
+        </loc>
+
+    </url>
+
+    <url>
+
+        <loc>
+            https://juancarlosuarez.github.io/gamedevportfolio/contact.html
+        </loc>
+
+    </url>
+
+</urlset>

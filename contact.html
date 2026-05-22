@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================================
+         PAGE METADATA
+    ========================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Contact</title>
+
+    <meta
+        name="description"
+        content="Contact Juan Carlos Suarez for game development opportunities, freelance projects and collaborations."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="canonical"
+        href="https://juancarlosuarez.github.io/gamedevportfolio/contact.html"
+    >
+
+    <!-- =========================================
+         OPEN GRAPH
+    ========================================== -->
+
+    <meta
+        property="og:title"
+        content="Contact | Juan Carlos Suarez"
+    >
+
+    <meta
+        property="og:description"
+        content="Contact Juan Carlos Suarez for freelance work, collaborations and game development opportunities."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://juancarlosuarez.github.io/gamedevportfolio/contact.html"
+    >
+
+    <meta
+        property="og:image"
+        content="https://juancarlosuarez.github.io/gamedevportfolio/assets/preview.png"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="Contact page for gameplay programmer and Unity developer Juan Carlos Suarez"
+    >
+
+    <meta
+        property="og:image:width"
+        content="1200"
+    >
+
+    <meta
+        property="og:image:height"
+        content="630"
+    >
+
+    <!-- =========================================
+         TWITTER
+    ========================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="Contact | Juan Carlos Suarez"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Contact Juan Carlos Suarez for freelance work, collaborations and game development opportunities."
+    >
+
+    <meta
+        name="twitter:image"
+        content="https://juancarlosuarez.github.io/gamedevportfolio/assets/preview.png"
+    >
+
+    <!-- =========================================
+         FAVICON
+    ========================================== -->
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="assets/favicon.ico"
+    >
+
+    <!-- =========================================
+         VENDOR STYLES
+    ========================================== -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+        rel="stylesheet"
+    >
+
+    <!-- =========================================
+         PROJECT STYLES
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- =========================================
+         SHARED NAVBAR COMPONENT
+    ========================================== -->
+
+    <div id="navbar"></div>
+
+    <!-- =========================================
+         CONTACT SECTION
+    ========================================== -->
+
+    <section class="page-section">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div
+                    class="col-lg-6"
+                    data-aos="fade-up"
+                >
+
+                    <h1 class="section-title mb-4">
+                        Contact
+                    </h1>
+
+                    <!-- =========================================
+                         CONTACT FORM
+                    ========================================== -->
+
+                    <form id="contactForm">
+
+                        <!-- Name field -->
+
+                        <div class="mb-3">
+
+                            <label
+                                for="contactName"
+                                class="form-label"
+                            >
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="contactName"
+                                name="name"
+                                placeholder="Name"
+                                autocomplete="name"
+                                required
+                                aria-label="Your name"
+                            >
+
+                        </div>
+
+                        <!-- Email field -->
+
+                        <div class="mb-3">
+
+                            <label
+                                for="contactEmail"
+                                class="form-label"
+                            >
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="contactEmail"
+                                name="email"
+                                placeholder="Email"
+                                autocomplete="email"
+                                required
+                                aria-label="Your email address"
+                            >
+
+                        </div>
+
+                        <!-- Message field -->
+
+                        <div class="mb-3">
+
+                            <label
+                                for="contactMessage"
+                                class="form-label"
+                            >
+                                Message
+                            </label>
+
+                            <textarea
+                                class="form-control"
+                                id="contactMessage"
+                                name="message"
+                                rows="6"
+                                placeholder="Message"
+                                required
+                                aria-label="Your message"
+                            ></textarea>
+
+                        </div>
+
+                        <!-- Submit button -->
+
+                        <button
+                            type="submit"
+                            class="btn btn-gold"
+                            aria-label="Send contact message"
+                        >
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         CONTACT STATUS MODAL
+    ========================================== -->
+
+    <div
+        class="project-modal"
+        id="contactModal"
+        aria-hidden="true"
+        aria-label="Contact status modal"
+        role="dialog"
+        aria-modal="true"
+    >
+
+        <!-- Modal overlay -->
+
+        <div class="project-modal-overlay"></div>
+
+        <!-- Modal card -->
+
+        <div class="project-modal-card">
+
+            <!-- Close icon -->
+
+            <button
+                type="button"
+                class="project-modal-close"
+                id="closeContactModal"
+                aria-label="Close contact status modal"
+            >
+                ×
+            </button>
+
+            <!-- Modal title -->
+
+            <h2
+                class="mt-2 mb-4 text-center"
+                id="contactModalTitle"
+            >
+                Contact Status
+            </h2>
+
+            <!-- Modal message -->
+
+            <p
+                class="text-center"
+                id="contactModalMessage"
+            ></p>
+
+            <!-- Modal close button -->
+
+            <div class="d-flex justify-content-center mt-4">
+
+                <button
+                    type="button"
+                    class="btn btn-gold"
+                    id="contactModalCloseButton"
+                    aria-label="Close modal"
+                >
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- =========================================
+         SHARED FOOTER COMPONENT
+    ========================================== -->
+
+    <div id="footer"></div>
+
+    <!-- =========================================
+         VENDOR SCRIPTS
+    ========================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- =========================================
+         EMAILJS
+    ========================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!-- =========================================
+         PROJECT SCRIPTS
+    ========================================== -->
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
